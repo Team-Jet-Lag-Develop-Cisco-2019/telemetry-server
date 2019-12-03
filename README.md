@@ -9,7 +9,7 @@ This is a service intended to be deployed as an LXC/Docker container on Cisco Io
 - Publishes transformed data over websocket as serialized utf-8 JSON
 
 ## Design
-
+![image](https://user-images.githubusercontent.com/990210/70082189-b271e680-15be-11ea-8481-a219b3ec2338.png)
 
 ## Build
 
