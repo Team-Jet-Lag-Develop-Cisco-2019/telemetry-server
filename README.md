@@ -46,7 +46,7 @@ The following environment variables can be overridden:
 |-----|--------|------------|
 |`MQTT_BROKER_PORT`|Port to bind MQTT broker service|`1883`|
 |`WS_SERVER_PORT`|Port to bind Websocket server|`9999`|
-|`LOG_LEVEL`|Minimum log level (ref. [bunyan log levels](https://github.com/trentm/node-bunyan#levels)|`debug`|
+|`LOG_LEVEL`|Minimum log level (ref. [bunyan log levels](https://github.com/trentm/node-bunyan#levels))|`debug`|
 
 
 ### Logging
