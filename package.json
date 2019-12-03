@@ -1,0 +1,30 @@
+{
+    "name": "telemetry-server",
+    "description": "Develop@Cisco 2019 Hack - IOT Edge Dashboard",
+    "version": "0.0.1",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js | bunyan",
+        "stop": "pkill -SIGKILL edge-dashboard",
+        "lint": "eslint -f table src",
+        "test": "echo 'No tests' && exit 1"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "engines": {
+        "node": "10.15.0",
+        "npm": "6.4.1"
+    },
+    "dependencies": {
+        "bunyan": "^1.8.12",
+        "lodash": "^4.17.15",
+        "mosca": "^2.8.3",
+        "winston": "^3.2.1",
+        "ws": "^7.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.7.2",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2"
+    }
+}
