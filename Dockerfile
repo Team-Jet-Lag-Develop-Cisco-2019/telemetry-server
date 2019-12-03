@@ -19,6 +19,6 @@ EXPOSE 1883
 EXPOSE 9999
 
 ENV LOG_LEVEL=debug
-ENV LOG_FILE=/data/log/edgedb.log
+# ENV LOG_FILE=/data/logs/edgedb.log
 
 CMD [ "npm", "start" ]
