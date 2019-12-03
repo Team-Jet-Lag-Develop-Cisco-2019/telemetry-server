@@ -12,13 +12,4 @@ const bunyanOpts = {
     ],
 };
 
-// if LOG_FILE env is defined, log to the file path
-// as defined by LOG_FILE env
-if (process.env.LOG_FILE) {
-    bunyanOpts.streams.push({
-        level: logLevel,
-        stream: process.env.LOG_FILE,
-    });
-}
-
 module.exports = bunyan.createLogger(bunyanOpts);

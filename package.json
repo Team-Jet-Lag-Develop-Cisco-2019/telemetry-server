@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "main": "src/app.js",
     "scripts": {
-        "start": "node src/app.js | bunyan",
+        "start": "mkdir -p /data/logs && node src/app.js | bunyan >> /data/logs/foo.log 2>&1",
         "stop": "pkill -SIGKILL edge-dashboard",
         "lint": "eslint -f table src",
         "test": "echo 'No tests' && exit 1"
