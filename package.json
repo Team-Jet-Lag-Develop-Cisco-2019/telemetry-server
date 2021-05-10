@@ -17,7 +17,7 @@
     },
     "dependencies": {
         "bunyan": "^1.8.12",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.21",
         "mosca": "^2.8.3",
         "winston": "^3.2.1",
         "ws": "^7.2.0"
